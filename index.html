@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel=“stylesheet">
+		<title>Hello Vue</title>
+	</head>
+	<body class=“text-center” v-bind:style="{background: color}">
+		<input type="color" v-model="color">
+	</body>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.js"></script>
+	<script type="text/javascript">
+		new Vue({
+			el: 'body',
+			data: {
+				color: ""
+			}
+		});
+	</script>
+
+</html>
